@@ -51,7 +51,7 @@ async function ProductDetail({ params }: { params: Promise<{ id: string }> }) {
                 {product.description}
               </p>
 
-              <AddToCartButton productName={product.name} />
+              <AddToCartButton productName={product.name} productId={product.id}/>
             </div>
           </div>
         </article>

@@ -18,10 +18,10 @@ function AppNavigation() {
             홈
           </Link>
           <Link
-            href="/login"
+            href="/cart"
             className="rounded-lg bg-zinc-900 px-4 py-2 text-sm font-medium text-white transition-colors hover:bg-zinc-700 dark:bg-zinc-100 dark:text-zinc-900 dark:hover:bg-zinc-200"
           >
-            로그인
+            장바구니
           </Link>
         </div>
       </div>
