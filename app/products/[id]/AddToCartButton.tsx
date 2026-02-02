@@ -24,7 +24,7 @@ type Props = {
 // }
 
 function addToCart(id: string) {
-  return fetch(`/api/cart`, {
+  return fetch('/api/cart', {
     method: "POST",
     body: JSON.stringify({ id }),
   })
